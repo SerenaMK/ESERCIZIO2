@@ -127,72 +127,86 @@
     </main>
 
     <br>
-
-    <!-- Form -->
-
-    <form method="POST" action="newsletter.php" autocomplete="on">
-
-        <fieldset>
-            <legend>Vuoi rimanere aggiornato su altre novità del blog? Iscriviti alla nostra newsletter:</legend>
-            <label for="email">E-mail:</label>
-            <input type="text" name="email" id="email" placeholder="Inserisci la tua e-mail...">
-            <button type="submit">Iscriviti!</button>
-
-        </fieldset>
-    </form>
-
-    <br>
     <hr>
 
-    <!-- Area correlati -->
-
     <aside>
-        <p><b>Articoli correlati</b></p>
 
-        <dl>
-            <ul>
+        <!-- Form -->
 
-                <li>
-                    <dt>
-                        <a href="http://informatica.abaluth.com/web/html/validazione-codice-html/" target="_blank">
-                            Validare il codice HTML
-                        </a>
-                    </dt>
-                    <dd>
-                        <i>Categoria: develop<br>
-                            Data: 18-9-2020</i>
-                    </dd>
-                </li>
+        <section>
+            <form method="POST" action="newsletter.php" autocomplete="on">
 
-                <li>
-                    <dt>
-                        <a href="https://toolset.mrw.it/html/html-fixer.html" target="_blank">
-                            Correggere la sintassi
-                        </a>
-                    </dt>
-                    <dd>
-                        <i>Categoria: develop<br>
-                            Data: 16-9-2020</i>
-                    </dd>
+                <fieldset>
+                    <legend>Vuoi rimanere aggiornato su altre novità del blog? Iscriviti alla nostra newsletter:
+                    </legend>
+                    <label for="email">E-mail:</label>
+                    <input type="text" name="email" id="email" placeholder="Inserisci la tua e-mail...">
+                    <button type="submit">Iscriviti!</button>
 
-                </li>
+                </fieldset>
+            </form>
+        </section>
 
-                <li>
-                    <dt>
-                        <a href="https://support.google.com/richmedia/answer/6261897?hl=it" target="_blank">
-                            Meno Kb nella pagina
-                        </a>
-                    </dt>
-                    <dd>
-                        <i>
-                            Categoria: ottimizzazione<br>
-                            Data: 30-9-2020
-                        </i>
-                    </dd>
 
-                </li>
-            </ul>
-        </dl>
+        <br>
+
+        <!-- Area correlati -->
+
+        <section>
+            <p><b>Articoli correlati</b></p>
+
+            <dl>
+                <ul>
+
+                    <li>
+                        <article>
+                            <dt>
+                                <a href="http://informatica.abaluth.com/web/html/validazione-codice-html/"
+                                    target="_blank">
+                                    Validare il codice HTML
+                                </a>
+                            </dt>
+                            <dd>
+                                <i>Categoria: develop<br>
+                                    Data: 18-9-2020</i>
+                            </dd>
+                        </article>
+                    </li>
+
+                    <li>
+                        <article>
+                            <dt>
+                                <a href="https://toolset.mrw.it/html/html-fixer.html" target="_blank">
+                                    Correggere la sintassi
+                                </a>
+                            </dt>
+                            <dd>
+                                <i>Categoria: develop<br>
+                                    Data: 16-9-2020</i>
+                            </dd>
+                        </article>
+
+                    </li>
+
+                    <li>
+                        <article>
+                            <dt>
+                                <a href="https://support.google.com/richmedia/answer/6261897?hl=it" target="_blank">
+                                    Meno Kb nella pagina
+                                </a>
+                            </dt>
+                            <dd>
+                                <i>
+                                    Categoria: ottimizzazione<br>
+                                    Data: 30-9-2020
+                                </i>
+                            </dd>
+                        </article>
+
+                    </li>
+                </ul>
+            </dl>
+        </section>
 
     </aside>
 
